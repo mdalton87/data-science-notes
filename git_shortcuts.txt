@@ -69,6 +69,19 @@ cp target.txt copy.txt
 cp file.txt project/
 cp file.txt file2.txt
 #############################
+git config --global user.name "Your Name"
+git config --global user.email you@email.com
+#############################
+Repository commands
+##
+1. git init # making repo from CPU
+2. git clone "url" # creating adding from website repo
+3. git status # checks for 
+4. git add . # accepts changes
+5. git commit -m "message" # commits changes with message
+6. git push # uploads all changes to GitHub
+##
+#############################
 #############################
 Quality of Life Tricks and tips
 

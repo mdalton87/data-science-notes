@@ -1,0 +1,6 @@
+## Week 1: 
+1. Nothing of note
+
+## Week 2:
+1. Built Git shortcuts 
+2. git config --global user.name "Your Name"  &  git config --global user.email you@email.com
