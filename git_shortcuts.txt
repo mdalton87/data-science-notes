@@ -67,7 +67,7 @@ copy (cp) works like move (mv)
 cp target destination
 cp target.txt copy.txt
 cp file.txt project/
-cp file.txt file2.txt
+cp file.txt filegit push2.txt
 #############################
 git config --global user.name "Your Name"
 git config --global user.email you@email.com
