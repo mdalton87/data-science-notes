@@ -19,5 +19,44 @@
 
 ### **Queries**
 
+
+
+### **Databases**
 SCHEMA = DATABASE in **MySQL**
 
+MySQL server responds with NULL as the database name, most likely you do not have any database selected
+
+
+### **Tables**
+- like spreadsheets, but more more strict
+
+- **Data types**
+    - Numeric types
+        - int, 
+        - float, 
+        - decimal(length, precision)
+            - set number of decimal places (money)
+    - Unsigned
+        - only positive numbers
+    - Boolean
+        - MySQL has no native support for boolean values
+        - TINYINT data type that goes from -128 to 127 and treats 0 as false and 1 as true
+    - String types
+        - CHAR(length)
+            - limit number a characters (less memory) e.g. zip-code, phone numbers, etc
+            - 1 - 255
+        - VARCHAR(length)
+            - 1 - 65,535 characters 
+        - TEXT
+            - any length string (use if you need more than 255 characters)
+        - We will use single quotes (') to indicate string values.
+    - Date
+        - DATE 
+            - typically stored as YYYY-MM-DD
+        - TIME 
+            24-hour time HH:MM:SS
+        - DATETIME
+            - YYYY-MM-DD HH:MM:SS
+        - Global severs are generally set to GMT
+    - NULL
+        - as the absence of value. **NOT ZERO**

@@ -22,4 +22,31 @@
 
 ## **Tables**
 
-###  
+###  Creating a table
+- CREATE TABLE table_name (
+    column1_name data_type,
+    column2_name data_type,
+    ...
+);
+
+- Example 1:
+    - CREATE TABLE quotes (
+    author_first_name VARCHAR(50),
+    author_last_name  VARCHAR(100) NOT NULL,
+    content TEXT NOT NULL
+    );
+
+- Example 2:
+     - CREATE TABLE quotes (
+    id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    author_first_name VARCHAR(50),
+    author_last_name  VARCHAR(100) NOT NULL,
+    content TEXT NOT NULL,
+    PRIMARY KEY (id)
+    );
+        - AUTO_INCREMENT
+            - instructs MySQL to generate a new values for this column
+        - PRIMARY KET (id)
+            - specifies that the PRIMARY KEY for the table is id
+
+### 
