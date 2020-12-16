@@ -19,5 +19,5 @@
 
 ### **Queries**
 
-
+SCHEMA = DATABASE in **MySQL**
 
