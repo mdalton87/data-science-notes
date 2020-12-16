@@ -1,5 +1,5 @@
 # Important SQL Syntax and Commands
-### 
+## **Databases**
 ### One Column
 - SELECT database_column FROM database_table
 
@@ -20,3 +20,6 @@
 ### Show code that created this DB
 - show create database fruits_db; 
 
+## **Tables**
+
+###  
