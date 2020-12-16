@@ -1,11 +1,11 @@
 # Important SQL Syntax and Commands
 ## **Databases**
 ### One Column
-- SELECT database_column FROM database_table
+- SELECT database_column FROM database_name.table_name
 
 
 ### Multiple columns
-- SELECT column1, column2 FROM database_table
+- SELECT column1, column2 FROM database_name.table_name
 - "*" = **ALL** columns 
 
 ### Literally shows all databases
