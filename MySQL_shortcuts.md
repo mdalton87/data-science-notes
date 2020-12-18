@@ -104,6 +104,7 @@ where first_name = 'Georgi'
 or first_name = 'Mary'
 order by first_name;
 
+## **Limit**
 
 
 
