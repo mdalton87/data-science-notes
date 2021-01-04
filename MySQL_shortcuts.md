@@ -105,9 +105,34 @@ or first_name = 'Mary'
 order by first_name;
 
 ## **Limit**
+- Limit *number*;
+    - Limits the output list
 
+## **GROUP BY**
+GROUP BY does 3 things
+1. The column we GROUP BY works like selecting distinct
+2. It sorts distinct values by the column we GROUP BY
+3. If we GROUP BY, we open up the possibility of aggregate f(x)'s (sum, min, max, avg, median, standard deviation, etc.)
 
+- SELECT database_column FROM database_name.table_name GROUP BY database_column
 
+## JOIN
+Database with 2 tables joined by role id
+
+- **Inner JOIN**
+    - select *
+from users 
+join roles on users.role_id = roles.id;
+
+- **LEFT JOIN**
+    - select *
+from users # by putting USERS in FROM and choosing LEFT means we get all the users, whether or not they have a roles
+left join roles on roles.id = users.role_id; 
+
+- **RIGHT JOIN**
+    - select *
+from users
+right join roles on roles.id = users.role_id; 
 
 
 

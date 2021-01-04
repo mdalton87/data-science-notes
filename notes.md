@@ -60,3 +60,16 @@ MySQL server responds with NULL as the database name, most likely you do not hav
         - Global severs are generally set to GMT
     - NULL
         - as the absence of value. **NOT ZERO**
+
+
+# SQL Continued... 01/04/2021
+
+## REVIEW
+### GROUP BY
+#### GROUP BY does 3 things
+1. The column we GROUP BY works like selecting distinct
+2. It sorts distinct values by the column we GROUP BY
+3. If we GROUP BY, we open up the possibility of aggregate f(x)'s (sum, min, max, avg, median, standard deviation, etc.)
+
+***Something that helped me understand GROUP BY and aggregate functions terminology-wise is to think of the column(s) you GROUP BY as the dimension you want to look at and any aggregate functions as the metric(s), what you want to measure by that dimension. This will also be really helpful terminology to translate what we’re doing in sql to Tableau in the near future. --Faith Kane***
+
